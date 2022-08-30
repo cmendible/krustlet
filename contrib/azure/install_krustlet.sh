@@ -2,6 +2,8 @@
 
 # Custom Krustlet server install script for Ubuntu 20.04
 
+export DEBIAN_FRONTEND="noninteractive"
+
 KRUSTLET_URL=$1
 CLUSTER_NAME=$2
 RESOURCE_GROUP=$3
